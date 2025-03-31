@@ -12,6 +12,25 @@ Slow self retrospective
  - DECISION
 
 --------
+
+## Retro 5 
+
+- ROTI : 4/5
+- DONE 
+  - splmit des  fichier
+- LEARNT
+  - Test case doit commencer par test
+  - 
+- QUESTIONS
+- FEELINGS
+  - un peu frusté
+  - éparpillé
+- NEEDS
+  - recentré pour avance pas à pas
+- DECISION
+  - essayer de ne pas changer de sujet
+
+
 ## Retro 4
 
 - ROTI : 4/5
