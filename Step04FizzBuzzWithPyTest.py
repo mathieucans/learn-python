@@ -1,18 +1,7 @@
 import pytest
 
+from FizzBuzz import FizzBuzz
 
-class FizzBuzz:
-    def say(self, number):
-        if number % 5 == 0:
-            return "buzz"
-        if number % 3 == 0:
-            return "fizz"
-        return "{}".format(number)
-
-
-def fizzbuzz(number):
-    fizz_buzz = FizzBuzz()
-    return fizz_buzz.say(number)
 
 class TestFizzBuzz:
     @pytest.mark.parametrize("input, expected", [
@@ -26,6 +15,7 @@ class TestFizzBuzz:
         (10, "buzz"),
     ])
     def test_fizz_buzz(self, input, expected):
-        assert fizzbuzz(input) == expected
+        fizz_buzz = FizzBuzz()
+        assert fizz_buzz.say(input) == expected
 
 
