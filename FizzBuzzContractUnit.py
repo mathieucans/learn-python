@@ -1,13 +1,10 @@
-import unittest
-from abc import abstractmethod
+from abc import ABC, abstractmethod
 from unittest import TestCase
 
 from parameterized import parameterized
 
-from FirstFizzBuzz import FirstFizzBuzz
 
-
-class FizzBuzzContractUnit:
+class FizzBuzzContractUnit(TestCase, ABC):
     @parameterized.expand([
         ["say 1 for 1 ", 1, "1"],
         ["say 2 for 2 ", 2, "2"],
@@ -24,12 +21,3 @@ class FizzBuzzContractUnit:
     @abstractmethod
     def create(self):
         """return the FizzBuzz implementation"""
-
-
-class StepO3FizzBuzzWithUnitTest(FizzBuzzContractUnit, TestCase):
-    def create(self):
-        return FirstFizzBuzz()
-
-
-if __name__ == '__main__':
-    unittest.main()
