@@ -1,9 +1,9 @@
-from abc import abstractmethod
+from abc import abstractmethod, ABC
 
 import pytest
 
 
-class FizzBuzzContract:
+class FizzBuzzContract(ABC):
 
     @abstractmethod
     def create_fizz_buzz(self):
