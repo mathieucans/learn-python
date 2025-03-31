@@ -7,3 +7,4 @@
  - [ ] assertj for python 
  - [ ] controller rest en python
  - [ ] qu'est-ce que django
+ - [ ] faire un outil de self retrospective
