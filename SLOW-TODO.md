@@ -3,10 +3,11 @@
 
  - [X] Requirement.txt
  - [ ] Classes et constructeurs
-   - 
    - [ ] Heritage
+   - [ ] Abstract
    - [ ] Typage
  - [ ] assertj for python 
  - [ ] controller rest en python
  - [ ] qu'est-ce que django
  - [ ] faire un outil de self retrospective
+ - [ ] Mais qu'est-ce que ABC ?
