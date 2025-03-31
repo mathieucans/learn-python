@@ -12,6 +12,22 @@ Slow self retrospective
  - DECISION
 
 --------
+## Retro 4
+
+- ROTI : 4/5
+- DONE 
+  - contract
+- LEARNT
+  - pytest des qu'on mets un init ca fout le bordel
+- QUESTIONS
+  - Est-ce que c'est judicieux de tester avec pytest ?
+- FEELINGS
+  - content
+- NEEDS
+  - Continuer l'apprentissage
+- DECISION
+  - aller vers 
+
 
 ## Retro 3
 - ROTI: 4/5
