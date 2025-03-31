@@ -1,6 +1,6 @@
 import pytest
 
-from FizzBuzz import FizzBuzz
+from FizzBuzz import FirstFizzBuzz
 
 
 class TestFizzBuzz:
@@ -15,7 +15,7 @@ class TestFizzBuzz:
         (10, "buzz"),
     ])
     def test_fizz_buzz(self, input, expected):
-        fizz_buzz = FizzBuzz()
+        fizz_buzz = FirstFizzBuzz()
         assert fizz_buzz.say(input) == expected
 
 

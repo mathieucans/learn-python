@@ -1,4 +1,4 @@
-class FizzBuzz:
+class FirstFizzBuzz:
     def say(self, number):
         if number % 5 == 0:
             return "buzz"
