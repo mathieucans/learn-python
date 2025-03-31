@@ -13,6 +13,24 @@ Slow self retrospective
 
 --------
 
+## Retro 6
+
+- ROTI : 4/5
+- DONE 
+  - Utilisation du contrat
+- LEARNT
+  - les parenthèses pour heritage
+  - on ne peut pas imposer le type
+  - le setup n'est pas obligatoire avec cette façon de faire
+- QUESTIONS
+  - POur quoi ca marche pas ?
+- FEELINGS
+  - Un peu frustré
+- NEEDS
+  - Aller
+- DECISION
+  - Go
+
 ## Retro 5 
 
 - ROTI : 4/5
