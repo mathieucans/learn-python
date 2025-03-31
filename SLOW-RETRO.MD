@@ -13,6 +13,23 @@ Slow self retrospective
 
 --------
 
+## Retro 3
+- ROTI: 4/5
+- DONE 
+  - Fizzbuzz with abstract class
+  - Test with setup
+- LEARNT
+  - il y a de fixture qui sont une autre façon de voir les tests
+- QUESTIONS
+  - je ne sais pas combien de temps j'y ai passé
+- FEELINGS
+  - Un peu frustré de m'etre perdu dans les consoles logs
+- NEEDS
+  - Faire une petite pause
+- DECISION
+  - Lancer quelque chose qui me cadence le temps
+
+
 ## Retro 2
 - ROTI : 5/5
 - DONE 
