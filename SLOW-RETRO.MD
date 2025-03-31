@@ -12,6 +12,23 @@ Slow self retrospective
  - DECISION
 
 --------
+
+## Retro 2
+- ROTI : 5/5
+- DONE 
+  - fizz buzz is a class
+- LEARNT
+  - pas de mot clé new
+- QUESTIONS
+  - Typage fort ?
+- FEELINGS
+  - cool
+- NEEDS
+  - go
+- DECISION
+
+
+## Retro 1
  - ROTI : 5/5
  - DONE 
    - Requirements

@@ -3,6 +3,7 @@
 
  - [X] Requirement.txt
  - [ ] Classes et constructeurs
+   - 
    - [ ] Heritage
    - [ ] Typage
  - [ ] assertj for python 
