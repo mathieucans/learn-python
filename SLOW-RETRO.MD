@@ -13,6 +13,24 @@ Slow self retrospective
 
 --------
 
+## Retro 7
+
+- ROTI : 4/5
+- DONE
+- LEARNT
+  - L'abstract test case avec parametrized mets le bazard quand ca échoue
+- QUESTIONS
+  - Est-ce que ce serait différent avec unit test
+  - Est-ce qu'il ne faut pas que je regarde les features pour voir si ca va mieux?
+- FEELINGS
+  - Un peu déçu
+- NEEDS
+  - J'aimerais trouver une solution pour le contract testing
+- DECISION
+  - Lire la doc de feautures et tout et tout
+
+
+
 ## Retro 6
 
 - ROTI : 4/5

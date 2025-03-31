@@ -11,3 +11,5 @@ class TestWordParametricFizzBuzz(FizzBuzzContract):
     def create_fizz_buzz(self):
         return WordParametricFizzBuzz()
 
+
+
