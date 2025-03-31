@@ -1,12 +1,15 @@
-from FizzBuzzContract import FizzBuzzContract
+import pytest
+
+from FizzBuzzContractWithPyTest import FizzBuzzContractWithPyTest
 from WordParametricFizzBuzz import WordParametricFizzBuzz
 
 
-class TestWordParametricFizzBuzzWithPyTest(FizzBuzzContract):
+class TestWordParametricFizzBuzzWithPyTest(FizzBuzzContractWithPyTest):
     def create_fizz_buzz(self):
         return WordParametricFizzBuzz()
 
-    def test_failed_with_details(self):
+@pytest.mark.skip('uncomment to show that actual value is no more displayed in inherited classes')
+def test_failed_with_details(self):
         assert self.create_fizz_buzz().say(3) == "3"
 
 

@@ -3,7 +3,7 @@ from abc import abstractmethod, ABC
 import pytest
 
 
-class FizzBuzzContract(ABC):
+class FizzBuzzContractWithPyTest(ABC):
 
     @abstractmethod
     def create_fizz_buzz(self):
@@ -22,5 +22,6 @@ class FizzBuzzContract(ABC):
     def test_fizz_buzz(self, input, expected):
         assert self.create_fizz_buzz().say(input) == expected
 
+    @pytest.mark.skip('uncomment to show that actual value is no more displayed in inherited classes')
     def test_failed_base(self):
         assert self.create_fizz_buzz().say(1) == "fizz"

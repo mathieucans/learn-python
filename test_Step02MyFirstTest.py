@@ -1,6 +1,6 @@
 import unittest
 
-
+@unittest.skip
 class Step02MyFirstTest(unittest.TestCase):
     def test_that_fails(self):
         self.assertEqual(True, False)

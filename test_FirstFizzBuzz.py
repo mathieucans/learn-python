@@ -1,8 +1,8 @@
 from FirstFizzBuzz import FirstFizzBuzz
-from FizzBuzzContract import FizzBuzzContract
+from FizzBuzzContractWithPyTest import FizzBuzzContractWithPyTest
 
 
-class TestFirstFizzBuzz(FizzBuzzContract):
+class TestFirstFizzBuzz(FizzBuzzContractWithPyTest):
 
     def create_fizz_buzz(self):
         return FirstFizzBuzz()
