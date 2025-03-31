@@ -1,9 +1,10 @@
 🐌 Slow todo list to learn python 🐢 
 =======
 
- - [ ] Requirement.txt
+ - [X] Requirement.txt
  - [ ] Classes et constructeurs
- - [ ] Heritage
+   - [ ] Heritage
+   - [ ] Typage
  - [ ] assertj for python 
  - [ ] controller rest en python
  - [ ] qu'est-ce que django
