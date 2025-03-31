@@ -4,6 +4,11 @@ from FizzBuzz import FirstFizzBuzz
 
 
 class TestFizzBuzz:
+
+    @classmethod
+    def setup_method(self):
+        self.fizz_buzz = FirstFizzBuzz()
+
     @pytest.mark.parametrize("input, expected", [
         (1, "1"),
         (2, "2"),
@@ -15,7 +20,4 @@ class TestFizzBuzz:
         (10, "buzz"),
     ])
     def test_fizz_buzz(self, input, expected):
-        fizz_buzz = FirstFizzBuzz()
-        assert fizz_buzz.say(input) == expected
-
-
+        assert self.fizz_buzz.say(input) == expected
