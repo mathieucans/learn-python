@@ -21,3 +21,6 @@ class FizzBuzzContract(ABC):
     ])
     def test_fizz_buzz(self, input, expected):
         assert self.create_fizz_buzz().say(input) == expected
+
+    def test_failed_base(self):
+        assert self.create_fizz_buzz().say(1) == "fizz"
