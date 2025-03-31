@@ -11,3 +11,4 @@
  - [ ] qu'est-ce que django
  - [ ] faire un outil de self retrospective
  - [ ] Mais qu'est-ce que ABC ?
+ - [ ] Comment exécuter tous les tests d'un répertoire ?
