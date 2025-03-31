@@ -6,4 +6,4 @@
  - [ ] Heritage
  - [ ] assertj for python 
  - [ ] controller rest en python
- - [ ] 
+ - [ ] qu'est-ce que django

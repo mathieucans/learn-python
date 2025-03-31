@@ -28,3 +28,7 @@ Ou menu file > Project structure
 
 ![4-select-python-sdk.png](docs/4-select-python-sdk.png)
 
+# Setup
+
+Run the following command : 
+```pip intall -r requirements.txt```
