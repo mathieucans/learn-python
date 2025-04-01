@@ -1,5 +1,5 @@
 from abc import abstractmethod, ABC
-
+from assertpy import assert_that
 import pytest
 
 
@@ -20,8 +20,4 @@ class FizzBuzzContractWithPyTest(ABC):
         (10, "buzz"),
     ])
     def test_fizz_buzz(self, input, expected):
-        assert self.create_fizz_buzz().say(input) == expected
-
-    @pytest.mark.skip('uncomment to show that actual value is no more displayed in inherited classes')
-    def test_failed_base(self):
-        assert self.create_fizz_buzz().say(1) == "fizz"
+        assert_that(self.create_fizz_buzz().say(input)).is_equal_to(expected)
