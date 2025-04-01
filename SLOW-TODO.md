@@ -7,6 +7,7 @@
    - [X] Abstract
    - [ ] Typage
  - [X] assertj for python 
+ - [ ] faire le snail-race-kata ?
  - [ ] controller rest en python
  - [ ] qu'est-ce que django
  - [ ] faire un outil de self retrospective
