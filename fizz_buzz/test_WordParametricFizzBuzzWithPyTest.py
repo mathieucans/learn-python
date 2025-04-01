@@ -1,6 +1,6 @@
 import pytest
 
-from FizzBuzzContractWithPyTest import FizzBuzzContractWithPyTest
+from fizz_buzz.FizzBuzzContractWithPyTest import FizzBuzzContractWithPyTest
 from WordParametricFizzBuzz import WordParametricFizzBuzz
 
 

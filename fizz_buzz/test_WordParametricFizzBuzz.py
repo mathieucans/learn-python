@@ -1,4 +1,4 @@
-from FizzBuzzContractUnit import FizzBuzzContractUnit
+from fizz_buzz.FizzBuzzContractUnit import FizzBuzzContractUnit
 from WordParametricFizzBuzz import WordParametricFizzBuzz
 
 

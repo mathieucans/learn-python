@@ -1,6 +1,6 @@
 import pytest
 
-from FirstFizzBuzz import FirstFizzBuzz
+from fizz_buzz.FirstFizzBuzz import FirstFizzBuzz
 
 @pytest.fixture
 def create_fizz_buzz():

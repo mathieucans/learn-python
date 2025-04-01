@@ -1,7 +1,7 @@
 import unittest
 
-from FirstFizzBuzz import FirstFizzBuzz
-from FizzBuzzContractUnit import FizzBuzzContractUnit
+from fizz_buzz.FirstFizzBuzz import FirstFizzBuzz
+from fizz_buzz.FizzBuzzContractUnit import FizzBuzzContractUnit
 
 
 class FirstFizzBuzzWithUnitTest(FizzBuzzContractUnit):
