@@ -32,3 +32,7 @@ Ou menu file > Project structure
 
 Run the following command : 
 ```pip intall -r requirements.txt```
+
+# To clean up installed modules
+```pip freeze | xargs pip uninstall -y```
+
